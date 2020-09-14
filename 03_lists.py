@@ -23,4 +23,4 @@ student_marks_2 = [
 ]
 
 for lesson_dates, mark, mark_2 in zip(lesson_dates, student_marks, student_marks_2): # ['19.05.15', 5, 4]
-    print(lesson_dates, 'оценка', mark, mark_2)
+    print(lesson_dates, 'оценка', 'студента1', mark, 'студента2', mark_2)
