@@ -1,18 +1,12 @@
-mock_student_marks = [5, 4, 3, 5, 2]
-# print(dir(mock_student_marks))
+lesson_dates = ['19.05.15',
+                 '19.05.17',
+                 '19.05.18',
+                 '19.05.19',
+                 '19.05.20',
+]
+student_marks = [5, 4, 3, 2, 5]
 
-print(mock_student_marks)
-mock_student_marks.append(5)
-print(mock_student_marks)
-# print(mock_student_marks.index(5, 1))
-# print(mock_student_marks.index(5, 5))
-# print(mock_student_marks.index(5, 1, 5))
-
-print(mock_student_marks.count(5))
-# print(mock_student_marks.count(2))
-# print(mock_student_marks.count(15))
-if mock_student_marks.count(15):
-    print('15 index', mock_student_marks.index(15))
-
-if mock_student_marks.count(5):
-    print('15 index', mock_student_marks.index(5))
+i = 0
+while i < len(student_marks):
+    print(lesson_dates[i], 'оценка', student_marks[i])
+    i += 1
