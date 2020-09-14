@@ -28,21 +28,23 @@ import sys
 # my_var = '12.5'
 # print(my_var, type(my_var), id(my_var), sys.getsizeof(my_var))
 
-student_marks = []
-while True:
-    mark = input('Введите оценку студента: \n')
-    if mark:
-        student_marks.append(mark)
-    else:
-        break
+# data read
+# student_marks = []
+# while True:
+#     mark = input('Введите оценку студента: \n')
+#     if mark:
+#         student_marks.append (int(mark))
+#     else:
+#         break
+#
+# print('Ввод завершен')
+# print(student_marks)
 
-print('Ввод завершен')
-print(student_marks)
-
-mock_student_marks = ['5', '4', '3', '5', '2']
-# mock_student_marks = [5, 4, 3, 5, 2]
+# mock_student_marks = ['5', '4', '3', '5', '2']
+mock_student_marks = [5, 4, 3, 5, 2]
 student_marks = mock_student_marks
 
+# data processing
 i = 0
 avg_mark = 0
 while i < len(student_marks):
