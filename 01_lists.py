@@ -39,6 +39,10 @@ while True:
 print('Ввод завершен')
 print(student_marks)
 
+mock_student_marks = ['5', '4', '3', '5', '2']
+# mock_student_marks = [5, 4, 3, 5, 2]
+student_marks = mock_student_marks
+
 i = 0
 avg_mark = 0
 while i < len(student_marks):
