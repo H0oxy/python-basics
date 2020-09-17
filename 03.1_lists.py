@@ -12,3 +12,4 @@ print(say_3)
 
 if say.endswith('!'):
     print('эмоционально сказано')
+
